@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">CovidRUN</string>
+    <string name="title_case">Case</string>
+    <string name="title_faq">FAQ</string>
+    <string name="title_notifications">Scan QR</string>
+    <string name="title_profile">Profile</string>
+    <string name="title_tracing">Tracing</string>
+    <string name="arrow">></string>
+    <string name="not_register">Not Register Yet?</string>
+    <string name="already_account">Already have an account?</string>
+    <string name="google_map_key">AIzaSyA9qE0NbBpKseBtrl7kadeVofMqQ53yr-k</string>
+    <string name="login"> <b>LOGIN</b> </string>
+    <string name="register"> <b>REGISTER</b> </string>
+    <string name="proceed">Proceed</string>
+    <string name="notification_channel_name">CovidRUN Status</string>
+    <string name="notification_channel_description">Notifications for current status of CovidRUN</string>
+    <string name="notification_content_title">Contact Tracing</string>
+    <string name="notification_content_text">Sensor is working</string>
+</resources>

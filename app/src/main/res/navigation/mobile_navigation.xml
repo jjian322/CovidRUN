@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_case">
+
+    <fragment
+        android:id="@+id/navigation_case"
+        android:name="com.example.covidrun.ui.cases.CaseFragment"
+        android:label="@string/title_case"
+        tools:layout="@layout/fragment_case">
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_faq"
+        android:name="com.example.covidrun.ui.faq.FaqFragment"
+        android:label="@string/title_faq"
+        tools:layout="@layout/fragment_faq">
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_qr"
+        android:name="com.example.covidrun.ui.qr.QRFragment"
+        android:label="@string/title_notifications"
+        tools:layout="@layout/fragment_notifications" />
+
+    <fragment
+        android:id="@+id/navigation_profile"
+        android:name="com.example.covidrun.ui.profile.ProfileFragment"
+        android:label="Profile"
+        tools:layout="@layout/fragment_profile" />
+
+    <fragment
+        android:id="@+id/navigation_tracing"
+        android:name="com.example.covidrun.ble.Contactlogs"
+        android:label="@string/title_tracing"
+        tools:layout="@layout/contactlogs" />
+
+</navigation>

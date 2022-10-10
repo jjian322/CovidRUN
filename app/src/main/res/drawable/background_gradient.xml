@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape>
+            <gradient android:angle="360" android:startColor="@color/light_pastel_purple" android:endColor="@color/dark_pastel_purple" android:type="linear" />
+        </shape>
+    </item>
+
+</selector>
+
+    <!--android:startColor="#A889DB"-->
