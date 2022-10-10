@@ -56,10 +56,6 @@
                 android:resource="@xml/provider_paths" />
         </provider>
 
-        <meta-data
-            android:name="com.google.android.geo.API_KEY"
-            android:value="AIzaSyDyUQV9aZpuJRF32Zd5EzQ6j9QipS5lZgU" />
-
         <activity
             android:name=".WelcomeScreen"
             android:exported="true"
